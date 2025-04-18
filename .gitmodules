@@ -1,0 +1,3 @@
+[submodule "Go-ICP"]
+	path = Go-ICP
+	url = https://github.com/yangjiaolong/Go-ICP.git
