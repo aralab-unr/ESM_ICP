@@ -49,5 +49,11 @@
      ./ESM_ICP_demo_Viewer ../../datasets/ModelNet40_pcd/stool/test/stool_0092.pcd icp 0.009 0.0f
    
     <method> can be icp, gicp, icp_nl, point2plane, ndt, goicp, deepgmr, dcp, pointnetlk and rpmnet.
-
+    <outlier_percent> denotes how much percent of points do you want the source to be affected by noise.
+   
 4. If you want to use GO-ICP go to the GOICP folder and do mkdir build, cd  build, cmake .. and make.
+5.  IMP NOTES:
+     - Thee <method> is used only for comparison with ESM-ICP. In the viewer's left view is the ouput from ESM-ICP and right view is from the <method> you pick.
+     - The code randomly generates a transformation using the function generateRandomTransformation() and transfroms the loaded point point cloud.
+     - ESM-ICP perfroms alignment on the original and the transformed point cloud.
+     - Honestly, the actual implmentation is in the function "Eigen::Matrix4d computeOptimalTransformation(const PointCloudT::Ptr& source, const PointCloudT::Ptr& target, const std::vector<int>& correspondences)", the remaining are just codes for comparison with other methods and can be safely ignored. 
