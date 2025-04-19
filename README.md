@@ -39,10 +39,14 @@
    cmake ..
    make
 
-2. Usage
+2. NOTE: Create folder res/ and saved_pcd/ in you cloned repository (this is for logging purposes), other wise the program crashes OR in the code ESM_ICP_demo_Viewer.cpp comment out the lines which are logging in data in these folder.
+   
+3. Usage
 
     ```bash
       ./ESM_ICP_deo_Viewer <source.pcd> <method> <leaf_size> <outlier_percent>
       for example,
      ./ESM_ICP_demo_Viewer ../../datasets/ModelNet40_pcd/stool/test/stool_0092.pcd icp 0.009 0.0f
    
+    <method> can be icp,gicp, ndt, goicp, deepgmr, dcp, pointnetlk and rpmnet.
+    
