@@ -1,6 +1,6 @@
 # ESM_ICP
 
-**ESM_ICP** is a C++ implementation of the Enhanced Soft Matching Iterative Closest Point (ESM-ICP) algorithm for point cloud registration. This repository provides tools for aligning 3D point clouds using the ESM-ICP method.
+**ESM_ICP** is a C++ implementation of the Exponential Similarity Matrix Iterative Closest Point (ESM-ICP) algorithm for point cloud registration. This repository provides tools for aligning 3D point clouds using the ESM-ICP method.
 <table>
   <tr>
     <td><img src="output1.gif" width="480" height="240"/></td>
