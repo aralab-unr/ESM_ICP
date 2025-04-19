@@ -34,3 +34,15 @@
    ```bash
    git clone --recurse-submodules https://github.com/aralab-unr/ESM_ICP.git
    cd ESM_ICP
+   mkdir build
+   cd build
+   cmake ..
+   make
+
+2. Usage
+
+    ```bash
+      ./ESM_ICP_deo_Viewer <source.pcd> <method> <leaf_size> <outlier_percent>
+      for example,
+     ./ESM_ICP_demo_Viewer ../../datasets/ModelNet40_pcd/stool/test/stool_0092.pcd icp 0.009 0.0f
+   
