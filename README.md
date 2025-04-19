@@ -48,5 +48,5 @@
       for example,
      ./ESM_ICP_demo_Viewer ../../datasets/ModelNet40_pcd/stool/test/stool_0092.pcd icp 0.009 0.0f
    
-    <method> can be icp,gicp, ndt, goicp, deepgmr, dcp, pointnetlk and rpmnet.
+    <method> can be icp, gicp, icp_nl, point2plane, ndt, goicp, deepgmr, dcp, pointnetlk and rpmnet.
     
