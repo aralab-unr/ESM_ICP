@@ -49,4 +49,5 @@
      ./ESM_ICP_demo_Viewer ../../datasets/ModelNet40_pcd/stool/test/stool_0092.pcd icp 0.009 0.0f
    
     <method> can be icp, gicp, icp_nl, point2plane, ndt, goicp, deepgmr, dcp, pointnetlk and rpmnet.
-    
+
+4. If you want to use GO-ICP go to the GOICP folder and do mkdir build, cd  build, cmake .. and make.
