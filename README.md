@@ -55,7 +55,7 @@
 5.  IMP NOTES:
      - The 'method' is used only for comparison with ESM-ICP. In the viewer's left view, the ouput is always from ESM-ICP and in the right view the output is from the method you pick.
      - The code randomly generates a transformation using the function generateRandomTransformation() and transfroms the loaded point point cloud.
-     - ESM-ICP perfroms alignment on the original and the transformed point cloud along with other methods for comaprison.
+     - ESM-ICP perfroms alignment on the original and the transformed point cloud along with other methods for comparison.
      - Honestly, the actual implmentation is in the function "Eigen::Matrix4d computeOptimalTransformation(const PointCloudT::Ptr& source, const PointCloudT::Ptr& target, const std::vector<int>& correspondences)", the remaining are just codes for comparison with other methods and can be safely ignored.
      - just focus on the ESM_ICP_demo_Viewer.cpp , the remaining cpp files are for testing purposes only.
      - GPU implementation is still under process.
