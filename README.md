@@ -51,7 +51,7 @@
     <method> can be icp, gicp, icp_nl, point2plane, ndt, goicp, deepgmr, dcp, pointnetlk and rpmnet.
     <outlier_percent> denotes how much percent of points do you want the source to be affected by noise.
    
-5. Hit 'SPACE' in the viewer. Every time you hit space it will trigger 40 iterations of ESM-ICP in the left side. For the right side it will trigger 40 iterations only for ICP/ICP-NL/GICP/point2plane. For teh remaining dep learning methods like Go-ICP/other deep learning methods, it will perform only 1 iteration.
+5. Hit 'SPACE' in the viewer. Every time you hit space it will trigger 40 iterations of ESM-ICP in the left side. For the right side it will trigger 40 iterations only for ICP/ICP-NL/GICP/point2plane. For the methods like Go-ICP/other deep learning methods, it will perform only 1 iteration.
 6. If you want to use GO-ICP go to the GOICP folder and do mkdir build, cd  build, cmake .. and make.
 7.  IMP NOTES:
      - The 'method' is used only for comparison with ESM-ICP. In the viewer's left view, the ouput is always from ESM-ICP and in the right view the output is from the method you pick.
