@@ -49,6 +49,7 @@
      ./ESM_ICP_demo_Viewer ../../datasets/ModelNet40_pcd/stool/test/stool_0092.pcd icp 0.009 0.0f
    
     <method> can be icp, gicp, icp_nl, point2plane, ndt, goicp, deepgmr, dcp, pointnetlk and rpmnet.
+    <leaf_size> set the leaf size to downsample the point clouds.
     <outlier_percent> denotes how much percent of points do you want the source to be affected by noise.
    
 5. Hit 'SPACE' in the viewer. Every time you hit space it will trigger 40 iterations of ESM-ICP in the left side. For the right side it will trigger 40 iterations only for ICP/ICP-NL/GICP/point2plane. For the methods like Go-ICP/other deep learning methods, it will perform only 1 iteration.
