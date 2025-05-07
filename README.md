@@ -26,6 +26,24 @@
 - C++17 compatible compiler
 - [Eigen](https://eigen.tuxfamily.org/) library
 - [PCL (Point Cloud Library)](https://pointclouds.org/) (optional, for visualization)
+## 📄 Reference
+
+If you use this code or dataset, please cite the following paper:
+
+> A. Singandhupe,Sanket Lokhande, H. La, "Title of Your Paper", *Conference/Journal Name*, Year.
+
+[📄 Read the paper (PDF)](ESM_ICP.pdf)
+
+You can also use the following BibTeX entry:
+
+```bibtex
+@article{singandhupe2025yourpaper,
+  title={Title of Your Paper},
+  author={Singandhupe, Ashutosh and Lokhande, Sanket and La, Hung},
+  journal={},
+  year={2025},
+  publisher={}
+}
 
 ### Building the Project
 
