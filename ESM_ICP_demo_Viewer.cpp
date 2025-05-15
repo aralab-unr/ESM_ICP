@@ -18,7 +18,7 @@
 #include <pcl/registration/transformation_estimation_point_to_plane.h>
 #include <pcl/registration/transformation_estimation_point_to_plane_weighted.h>
 #include <pcl/registration/transformation_estimation_point_to_plane_lls.h>
-#include <pcl/registration/transformation_estimation_correntropy_svd.h>
+
 #include <unordered_set>
 #include <fstream>
 #include <cstdlib>
